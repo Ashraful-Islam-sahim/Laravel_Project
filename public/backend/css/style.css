@@ -1,0 +1,19 @@
+.my-btn a i{
+    font-size: 1.1rem;
+}
+.my-btn a:first-child{
+    color: blueviolet;
+
+}
+.my-btn a:last-child{
+    margin-left: 20px;
+}
+.my-btn .trash{
+    background: none;
+}
+.modal-body ul li{
+    display: inline;
+}
+.my-btn .trash{
+    border: none !important;
+}
