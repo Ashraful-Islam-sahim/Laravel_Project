@@ -9,7 +9,7 @@
     </div>
 <div class="br-pagebody ">
     <div class="br-section">
-        <h6 class="br-section-label">Manage Brand</h6>
+        <h6 class="br-section-label">Manage Brand Name</h6>
         <!-- <p class="br-section-text">Using the most basic table markup.</p> -->
 
         <div class="bd bd-gray-300 rounded table-responsive">
