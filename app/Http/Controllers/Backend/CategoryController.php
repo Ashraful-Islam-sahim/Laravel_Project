@@ -9,6 +9,7 @@ use Image;
 use File;
 use Illuminate\Validation\Rules\File as RulesFile;
 use Illuminate\Validation\Rules\ImageFile as RulesImageFile;
+use phpDocumentor\Reflection\Types\Nullable;
 
 class CategoryController extends Controller
 {
