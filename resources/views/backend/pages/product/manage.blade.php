@@ -42,7 +42,7 @@
                             @else
                                 No Image Uploaded
                             @endif
-                        </td>
+                        <<td>{{ optional($product->brand)->name }}</td>/td>
                         <td>{{ optional($product->brand)->name }}</td>
                         <td>{{ optional($product->category)->name }}</td>
                         <td>{{$product->quantity}} PCs</td>

@@ -22,7 +22,10 @@
                             <div class="form-group">
                                 <label>Product Title</label>
                                 <input type="text" name="title" class="form-control" required="required">
-                            </div>
+                                                  <div class="form-group">
+                                <label>Regular Price</label>
+                                <input type="text" name="regular_price" class="form-control" required="required">
+                            </div>      </div>
                             <div class="form-group">
                                 <label>Regular Price</label>
                                 <input type="text" name="regular_price" class="form-control" required="required">

@@ -41,7 +41,7 @@
       </ul>
     </li>
 
-    {{-- producct table menubar............. --}}
+    {{-- product table menubar............. --}}
     <li class="br-menu-item">
       <a href="#" class="br-menu-link with-sub">
         <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
@@ -50,6 +50,45 @@
       <ul class="br-menu-sub">
         <li class="sub-item"><a href="{{route('product.manage')}}" class="sub-link">Manage All Products</a></li>
         <li class="sub-item"><a href="{{route('product.create')}}" class="sub-link">Add New Product</a></li>
+        {{-- <li class="sub-item"><a href="card-listing.html" class="sub-link">Shop &amp; Listing</a></li> --}}
+      </ul>
+    </li>
+
+    {{-- Division table menubar............. --}}
+    <li class="br-menu-item">
+      <a href="#" class="br-menu-link with-sub">
+        <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
+        <span class="menu-item-label">Division</span>
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub">
+        <li class="sub-item"><a href="{{route('division.manage')}}" class="sub-link">Manage All Divisions</a></li>
+        <li class="sub-item"><a href="{{route('division.create')}}" class="sub-link">Add New Division</a></li>
+        {{-- <li class="sub-item"><a href="card-listing.html" class="sub-link">Shop &amp; Listing</a></li> --}}
+      </ul>
+    </li>
+
+    {{-- Districts table menubar............. --}}
+    <li class="br-menu-item">
+      <a href="#" class="br-menu-link with-sub">
+        <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
+        <span class="menu-item-label">Districts</span>
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub">
+        <li class="sub-item"><a href="{{route('district.manage')}}" class="sub-link">Manage All Districts</a></li>
+        <li class="sub-item"><a href="{{route('district.create')}}" class="sub-link">Add New District</a></li>
+        {{-- <li class="sub-item"><a href="card-listing.html" class="sub-link">Shop &amp; Listing</a></li> --}}
+      </ul>
+    </li>
+
+    {{-- Slider table menubar............. --}}
+    <li class="br-menu-item">
+      <a href="#" class="br-menu-link with-sub">
+        <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
+        <span class="menu-item-label">Sliders</span>
+      </a><!-- br-menu-link -->
+      <ul class="br-menu-sub">
+        <li class="sub-item"><a href="{{route('slider.manage')}}" class="sub-link">Manage All Sliders</a></li>
+        <li class="sub-item"><a href="{{route('slider.create')}}" class="sub-link">Add New Slider</a></li>
         {{-- <li class="sub-item"><a href="card-listing.html" class="sub-link">Shop &amp; Listing</a></li> --}}
       </ul>
     </li>
