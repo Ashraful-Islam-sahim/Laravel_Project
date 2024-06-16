@@ -28,6 +28,7 @@
                 </thead>
                 <tbody>
                     {{-- start read database data and information --}}
+                    
                     @php $i=1; @endphp
                     @foreach ($brands as $brand)
                     <tr>
