@@ -148,8 +148,8 @@
           <div class="dropdown-menu dropdown-menu-header wd-250">
             <div class="tx-center">
               <a href=""><img src="https://via.placeholder.com/500" class="wd-80 rounded-circle" alt=""></a>
-              <h6 class="logged-fullname">Katherine P. Lumaad</h6>
-              <p>youremail@domain.com</p>
+              <h6 class="logged-fullname">{{ Auth::user()->name }}</h6>
+              <p>{{ Auth::user()->email }}</p>
             </div>
             <hr>
             <div class="tx-center">
@@ -159,7 +159,7 @@
             </div>
             <hr>
             <ul class="list-unstyled user-profile-nav">
-              <li><a href=""><i class="icon ion-ios-person"></i> Edit Profile</a></li>
+              <li><a href="{{route('profile.edit')}}"><i class="icon ion-ios-person"></i> Edit Profile</a></li>
               <li><a href=""><i class="icon ion-ios-gear"></i> Settings</a></li>
               <li><a href=""><i class="icon ion-ios-download"></i> Downloads</a></li>
               <li><a href=""><i class="icon ion-ios-star"></i> Favorites</a></li>

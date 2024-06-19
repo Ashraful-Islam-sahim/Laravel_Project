@@ -87,7 +87,7 @@ Route::group(['prefix' => 'slider'], function () {
 });
 
 
-});
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -98,3 +98,4 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 
+});
